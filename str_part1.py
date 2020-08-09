@@ -57,3 +57,11 @@ print(ex6.upper())  # PYTHON
 # lower
 ex7 = "PYTHON"
 print(ex7.lower())  # python
+
+# Slicing =
+# var[start:end] end not included in returned result
+# var[start:ene:steps] default steps = 1
+
+ex8 = "i love python"
+print(ex8[5:9])  # e py
+print(ex8[2:9:2])  # lv y
